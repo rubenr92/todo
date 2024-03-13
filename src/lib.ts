@@ -10,4 +10,8 @@ export default class Todo {
   toggle() {
     this.completed = !this.completed;
   }
+
+  remove(tasks:Todo[]){
+
+  }
 }
